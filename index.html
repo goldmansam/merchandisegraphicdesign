@@ -489,8 +489,8 @@
 
       // Position camera in front of the brick border (outside the store)
       const frontEdge = scaledBox.max.z + (scaledSize.z * 0.35); // 35% beyond front edge (moved back)
-      camera.position.set(0, 0.3, frontEdge - 2); // Lower (0.3 instead of 0.5) and forward (frontEdge - 2)
-      camera.lookAt(0, 0.3, 0);
+      camera.position.set(0, 0.15, frontEdge - 2); // Lower (0.15) and forward (frontEdge - 2)
+      camera.lookAt(0, 0.15, 0);
       initialCameraSet = true;
 
       // Store camera z position for clothing path
